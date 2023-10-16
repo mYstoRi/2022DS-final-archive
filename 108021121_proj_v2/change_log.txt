@@ -1,0 +1,12 @@
+v2 changes:
+- added "debug" option (in advanced.cpp):
+	- if true, it will give a rough log of what has happened.
+	- if false, the program will only show the revenue.
+	- defaults to false.
+- fixed being able to arrive at the deadline of each request,
+	instead of having to arrive strictly before it.
+- updated the report:
+	- Specify "advanced" in the instructions.
+	- Specify "debug" option in the instructions.
+	- Changed the result values due to the bug.
+	- updated texts in the report will be in dark red color.
